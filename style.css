@@ -74,7 +74,7 @@ h1:hover {
     max-width: 90%;
     height: auto;
     border-radius: 10px;
-    border: 3px solid #198c94;
+    border: 3px solid #000000;
     box-shadow: 0 0 10px rgba(25, 140, 148, 0.3);
 }
 
@@ -127,6 +127,17 @@ footer a:hover {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.project-card-new {
+    text-align: center;
+    width: 500px;
+    background-color: #171b1c;
+    color: white;
+    border: 1px solid #198c94;
+    border-radius: 30px;
+    padding: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
 .project-card h3 {
     color: #198c94;
     margin-bottom: 10px;
@@ -171,3 +182,48 @@ footer a:hover {
 .socials a:hover {
     color: #198c94;
 }
+
+.info-section {
+    background-color: #121212;
+    color: #ffffff;
+    padding: 30px;
+    margin: 30px auto;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 255, 255, 0.15);
+    max-width: 800px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .info-section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 20px rgba(0, 255, 255, 0.25);
+  }
+  
+  .info-section h2 {
+    color: #19f0ff;
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+  }
+  
+  .info-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .info-section li {
+    font-size: 18px;
+    margin: 12px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 10px;
+    border-left: 3px solid #19f0ff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .info-section li:hover {
+    background-color: rgba(25, 240, 255, 0.05);
+    border-left: 3px solid #5ff7ff;
+  }
