@@ -1,4 +1,5 @@
 import '../App.css';
+
 function Home() {
   return (
     <main>
@@ -6,7 +7,7 @@ function Home() {
         <h2 className="hero-title">SOBRE MÍ</h2>
         <img
           className="hero-image"
-          src={`${import.meta.env.BASE_URL}IMG_2353.JPG`} 
+          src="/neofolder/IMG_2353.JPG"
           alt="Foto de Nereo Aranda"
           width="500"
           height="250"
